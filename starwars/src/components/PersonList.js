@@ -14,11 +14,11 @@ function PersonList(props) {
                     
                     <div>
                         <h1>{person.name}</h1>
-                        <Styledh3> height:{person.height}</Styledh3>
-                        <Styledh3> mass:{person.mass}</Styledh3>
-                        <Styledh3> skin color:{person.skin_color}</Styledh3>
-                        <Styledh3> eye color:{person.eye_color}</Styledh3>
-                        <Styledh3> birth year:{person.birth_year}</Styledh3>
+                        <Styledh3> height: {person.height} cmgit </Styledh3>
+                        <Styledh3> mass: {person.mass} kg</Styledh3>
+                        <Styledh3> skin color: {person.skin_color}</Styledh3>
+                        <Styledh3> eye color: {person.eye_color}</Styledh3>
+                        <Styledh3> birth year: {person.birth_year}</Styledh3>
 
                     </div>
                 )
